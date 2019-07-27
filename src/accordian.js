@@ -11,10 +11,22 @@ class Accordian extends Component {
         };
     }
     activateAccordian = (index) => {
-        this.setState({
-            toggleAccord: !this.state.toggleAccord,
-            toggleIndex: index
-        });
+        const { selectedIndex } = this.state;
+        // this.setState({
+        //     toggleAccord: !this.state.toggleAccord,
+        //     toggleIndex: index
+        // });
+        if (index === selectedIndex) {
+            this.setState({
+                toggleIndex: null
+            })
+        } else {
+            this.setState({
+                toggleAccord: !this.state.toggleAccord,
+
+                toggleIndex: index
+            })
+        }
     }
     render() {
 
@@ -27,15 +39,15 @@ class Accordian extends Component {
                                 <div className='accordianContainer' key={index}>
                                     <div className='headerList'>
                                         <p className='headerListText'>{items.listHeader}</p>
-                                        {this.state.toggleAccord &&
-                                            <div onClick={() => this.activateAccordian(index)}> <FontAwesomeIcon icon={faPlus} color="blue" /></div>
-                                        }
-                                        {!this.state.toggleAccord &&
-                                            <div onClick={() => this.activateAccordian(index)}> <FontAwesomeIcon icon={faMinus} color="blue" /></div>
-                                        }
+                                        <div >
+                                            {this.state.toggleIndex === index && this.state.toggleAccord ?
+                                                <FontAwesomeIcon icon={faMinus} color="blue" onClick={() => this.activateAccordian(index)} />
+                                                : <FontAwesomeIcon icon={faPlus} color="blue" onClick={() => this.activateAccordian(index)} />
+                                            }
+                                        </div>
                                     </div>
-                                    {this.state.toggleAccord && this.state.toggleIndex == index &&
-                                        <div><p className='accordianDescrp'>{items.accorDescription}</p></div>
+                                    {this.state.toggleIndex === index && this.state.toggleAccord &&
+                                        < div > <p className='accordianDescrp'>{items.accorDescription}</p></div>
                                     }
                                 </div>
                             )
