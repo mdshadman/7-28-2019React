@@ -20,5 +20,16 @@ export default {
         { listHeader: 'Includes success stories of Mark and Musk', accorDescription: 'Includes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and Musk' },
         { listHeader: 'Includes success stories of Mark and Musk', accorDescription: 'Includes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and Musk' },
         { listHeader: 'Includes success stories of Mark and Musk', accorDescription: 'Includes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and MuskIncludes success stories of Mark and Musk' },
+    ],
+    card: [
+        { title: 'Zero to One', subtitle: '10 chapters' },
+        { title: 'The Intelligent Investor(English)', subtitle: '12 chapters' },
+        { title: 'The Design of Everyday Things', subtitle: '120 chapters' },
+        { title: 'Handbook of Mathematics', subtitle: '20 chapters' },
+        { title: 'The Power of Habit', subtitle: '10 chapters' },
+        { title: 'The Brain', subtitle: '10 chapters' },
+        { title: 'Zero to One', subtitle: '10 chapters' },
+        { title: 'Zero to One', subtitle: '10 chapters' },
+        { title: 'The Power of Habit', subtitle: '10 chapters' },
     ]
 };

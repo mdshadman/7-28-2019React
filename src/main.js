@@ -4,6 +4,7 @@ import './style.css';
 import data from './Data';
 import AddtoBasket from './AddtoBasket';
 import Accordian from './accordian';
+import Books from './Books';
 
 class Main extends Component {
     constructor(props) {
@@ -33,6 +34,7 @@ class Main extends Component {
                 </header>
                 <AddtoBasket />
                 <Accordian />
+                <Books />
             </div>
 
 

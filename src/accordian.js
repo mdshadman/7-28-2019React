@@ -12,10 +12,6 @@ class Accordian extends Component {
     }
     activateAccordian = (index) => {
         const { selectedIndex } = this.state;
-        // this.setState({
-        //     toggleAccord: !this.state.toggleAccord,
-        //     toggleIndex: index
-        // });
         if (index === selectedIndex) {
             this.setState({
                 toggleIndex: null
@@ -23,7 +19,6 @@ class Accordian extends Component {
         } else {
             this.setState({
                 toggleAccord: !this.state.toggleAccord,
-
                 toggleIndex: index
             })
         }

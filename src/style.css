@@ -186,14 +186,27 @@
   width: 100%;
   font-size: 18px;
 }
-
+.buttonPaddingCart1 {
+  height: 48px;
+  background: #2654b4;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  width: 100%;
+  font-size: 18px;
+}
+.allBooksText{
+  padding: 0px 42px;
+}
 .buttonCart {
   margin: 30px;
 }
 
 .row {
   display: flex;
-  margin: 272px 136px;
+  margin: 272px 112px 135px;
 }
 
 /* Create two equal columns that sits next to each other */
@@ -220,6 +233,7 @@
 .headerListText {
   font-size: 18px;
   font-weight: 500;
+  text-align: left;
 }
 
 .accordianContainer {
@@ -229,6 +243,9 @@
 .accordianDescrp {
   margin: 0;
   text-align: left;
+  max-height: 75px;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
 }
 
 .imageContainer {
@@ -243,3 +260,142 @@
   color: gray;
   font-size: 64px;
 }
+
+.booksContainer {
+  background: #efece6;
+}
+
+.titleHeader {
+  padding: 80px 0px 25px;
+  font-family: Lora Title;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 0;
+}
+
+.BooksCard {
+  display: flex;
+  max-width: 355px;
+  height: 175px;
+  background: white;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.19), 0 3px 6px rgba(0, 0, 0, 0.23);
+  min-width: 350px;
+  flex-direction: column;
+  justify-content: space-between;
+    align-items: flex-start;
+}
+
+.BooksCardContainer {
+  padding: 0px 112px 112px;
+  padding: 0px 112px 112px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.titleSubtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px 20px;
+}
+
+.cardTitlePAra {
+  font-size: 28px;
+  font-family: Muli;
+  color: #000000b5;
+  text-align: left;
+  max-height: 65px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 16px;
+}
+
+.cardTitlePAra1 {
+  font-family: Muli;
+  color: gray;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.cardButtons{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+    margin: 0px 20px;
+}
+.priceBook{
+  font-weight: 500;
+  color: rgba(0, 128, 0, 0.79);
+}
+.priceBookButton{
+  background: transparent;
+    border: 0;
+    font-size: 18px;
+    color: #3391ff;
+}
+.buttonPaddingCart:active {
+  background-color: #2654b4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border: none;
+  border-radius: 10px;
+}
+.buttonPaddingCart1:active {
+  background-color: #2654b4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border: none;
+  border-radius: 10px;
+}
+.transButton:active {
+  background-color: transparent;
+  box-shadow: 0 5px transparent;
+  transform: translateY(4px);
+  border: none;
+  border-radius: 10px;
+}
+.buttonfull:active {
+  background-color: #bdd9fa;
+  box-shadow: 0 5px transparent;
+  transform: translateY(4px);
+  border: none;
+  border-radius: 10px;
+}
+.buttonHalf:active {
+  background-color: #bdd9fa;
+  box-shadow: 0 5px transparent;
+  transform: translateY(4px);
+  border: none;
+  border-radius: 10px;
+}
+.minus:active {
+  background-color: #bdd9fa;
+  box-shadow: 0 5px transparent;
+  transform: translateY(4px);
+  border: none;
+  border-radius: 10px;
+}
+.add:active {
+  background-color: #bdd9fa;
+  box-shadow: 0 5px transparent;
+  transform: translateY(4px);
+  border: none;
+  border-radius: 10px;
+}
+.number:active {
+  background-color: #bdd9fa;
+  box-shadow: 0 5px transparent;
+  transform: translateY(4px);
+  border: none;
+  border-radius: 10px;
+}
+
+
+
