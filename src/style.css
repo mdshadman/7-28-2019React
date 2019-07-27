@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  pointer-events: none;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: auto;
+  width: 1170px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.buttonfull {
+  height: 44px;
+  width: 110px;
+  background: #bdd9fa;
+  border: 0;
+  border-radius: 10px 0px 0px 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #2654b4;
+}
+
+.buttonHalf {
+  height: 44px;
+  background: #bdd9fa;
+  border: 0;
+  border-radius: 0px 7px 7px 0px;
+  margin-left: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #2654b4;
+  padding: 0px 16px;
+}
+
+.transButton {
+  margin-right: 16px;
+  color: #3391ff;
+  background: #f4433600;
+  box-shadow: none;
+  border: 0;
+  padding: 0;
+  width: 75px;
+  height: 44px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.basketContainer {
+  background: #fdedd3;
+  height: 375px;
+}
+
+.cardParaContainer {
+  padding: 0px 56px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paraTexts {
+  height: 120px;
+  width: 55%;
+  padding: 80px 0px;
+  text-align: justify;
+}
+
+.hangingCard {
+  background: white;
+  height: 465px;
+  width: 27%;
+  /* position: relative; */
+  /* right: 0px; */
+  margin: 80px 0px;
+  border-radius: 15px;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.19), 0 1px 2px rgba(0, 0, 0, 0.23);
+}
+
+.paraText {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.headTitle {
+  font-family: Lora Title;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 72%)
+}
+
+.cardBasket {
+  margin: 0px 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1.5px solid #e1e1e1;
+}
+
+.iconLeft {
+  padding: 16px;
+}
+
+.listParaDetails {
+  text-align: left;
+  font-size: 16px;
+}
+
+.bolldTitlePara {
+  font-weight: bold;
+}
+
+.footerButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+}
+
+.minus {
+  height: 38px;
+  background: #bdd9fa;
+  border: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.number {
+  height: 38px;
+  background: #bdd9fa;
+  border: 0;
+  margin: 0px 4px;
+  padding: 0px 16px;
+  color: blue;
+  font-weight: bold;
+}
+
+.add {
+  height: 38px;
+  background: #bdd9fa;
+  border: 0;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.iconPadding {
+  padding: 0px 8px 0px 8px;
+}
+
+.totalNumber {
+  color: green;
+}
+
+.buttonPaddingCart {
+  height: 44px;
+  background: #2654b4;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  width: 100%;
+  font-size: 18px;
+}
+
+.buttonCart {
+  margin: 30px;
+}
+
+.row {
+  display: flex;
+  margin: 272px 136px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.column1 {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.headerList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerListText {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.accordianContainer {
+  padding: 0px 32px 16px 32px;
+}
+
+.accordianDescrp {
+  margin: 0;
+  text-align: left;
+}
+
+.imageContainer {
+  max-width: 570px;
+  max-height: 370px;
+  background: #00000026;
+  min-width: 570px;
+  min-height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 64px;
+}
